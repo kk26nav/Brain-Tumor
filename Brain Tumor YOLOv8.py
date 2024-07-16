@@ -1,5 +1,5 @@
 from ultralytics import YOLO
-import numpy as np
+
 if __name__ == '__main__':
     model = YOLO("yolov8x-cls.pt")
     data_dir = "C:/Users/snk20/Downloads/Brain Tumor/cleardataset"
